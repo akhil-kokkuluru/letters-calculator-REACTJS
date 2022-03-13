@@ -1,0 +1,98 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  height: 100vh;
+  color: #ffffff;
+}
+.ContentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  text-align: center;
+  padding: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .ContentContainer {
+    flex-direction: row;
+  }
+  .imagecss {
+    order: 0;
+  }
+  .contentsContainer {
+    order: -1;
+    align-items: left;
+    text-align: left;
+  }
+  .outerContainer {
+    height: 100vh;
+  }
+  .buttons {
+    align-self: flex-start;
+  }
+  .heading {
+    align-self: flex-start;
+  }
+  .inputContainer {
+    align-self: flex-start;
+  }
+}
+.contentsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imagecss {
+  width: 300px;
+  height: auto;
+}
+.heading {
+  font-size: 26px;
+}
+
+.inputEl {
+  background-color: transparent;
+  color: #ffffff;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #ffffff;
+  height: 30px;
+  text-align: left;
+  width: 200px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.labelling {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: center;
+}
+.buttons {
+  height: 50px;
+  width: 180px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #219a6f;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  border-width: 0px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
